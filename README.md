@@ -3,20 +3,19 @@
 A feature-rich, mobile-first photo booth web app built with React + TypeScript. Take single shots, animated photo strips, and GIFs directly in your browser, no installation required.
 
 <div align="center">
+ 
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-06B6D4?logo=tailwindcss)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)
+
 </div>
 
 ---
 
 ## 📁 Project Structure
  
-```
-lumisnap/
-├── public/
-│   └── camera.svg              
+```             
 ├── src/
 │   ├── components/
 │   │   ├── CameraPreview.tsx   
