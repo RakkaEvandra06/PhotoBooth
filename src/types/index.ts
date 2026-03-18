@@ -1,6 +1,17 @@
 // src/types/index.ts
 
-export type FilterType = 'none' | 'grayscale' | 'sepia' | 'vintage' | 'contrast' | 'mirror';
+export type FilterType =
+  | 'none'
+  // ── Instagram Classic ──
+  | 'clarendon' | 'gingham' | 'juno' | 'lark' | 'valencia'
+  | 'sierra' | 'mayfair' | 'walden' | 'ludwig' | 'xpro2'
+  // ── Beauty & Face ──
+  | 'renegade' | 'cinema7' | 'boho' | 'pinkpreset' | 'moody'
+  | 'ciaobella' | 'almondmilk' | 'honeysuckle' | 'topmodel' | 'cuteness'
+  // ── Aesthetic & Viral ──
+  | 'beautymix' | 'lvshine' | 'blush' | 'milkthree' | 'kirakira'
+  // ── Legacy (keep for safety) ──
+  | 'mirror';
 
 export interface FilterConfig {
   id: FilterType;
