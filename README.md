@@ -1,5 +1,8 @@
-# 📸 LUMISNAP — Photo Studio
+<p align="center">
+  <img src="assets/animated-lumisnap-v5.svg" width="100%" alt="LumiSnap Banner"/>
+</p>
 
+## 📸 LumiSnap - iOS, Android, and Laptop
 A feature-rich, mobile-first photo booth web app built with React + TypeScript. Take single shots, animated photo strips, and GIFs directly in your browser, no installation required.
 
 <div align="center">
@@ -16,6 +19,8 @@ A feature-rich, mobile-first photo booth web app built with React + TypeScript. 
 ## 📁 Project Structure
  
 ```             
+├── assets/
+├── nodemodules/
 ├── src/
 │   ├── components/
 │   │   ├── CameraPreview.tsx   
@@ -120,6 +125,6 @@ LumiSnap runs entirely in your browser:
 <div align="center">
   <p>Made with ❤️</p>
   <p>
-    <strong>LUMISNAP</strong> capture the moment, keep the vibe.
+    <strong>LumiSnap</strong> capture the moment, keep the vibe.
   </p>
 </div>
